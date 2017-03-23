@@ -1,0 +1,74 @@
+.content span{
+	display: block;
+	font-size: 12px;
+	color:#B9B9B9;
+	margin-bottom: 30px;
+}
+.content ul{
+	width: 180px;
+	margin:0 auto;
+}
+.content ul li{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.content ul li:last-child{
+	margin-right: 0;
+}
+.content ul li a{
+	display: block;
+	color:#3A3A3A;
+	padding-bottom: 12px;
+}
+.content ul li.active a,.content ul li:hover a{
+	color:#98B81D;
+	border-bottom: 4px solid #8EB100;
+}
+
+/*文章*/
+.content .title{
+	width: 1013px;
+	margin: 0 auto;
+}
+.content .title h2{
+	text-align: center;
+	font-size: 22px;
+	color:#090909;
+	margin-bottom: 20px;
+}
+.content .title .span_box{
+	width: 405px;
+	margin: 0 auto 60px;
+}
+.content .title span{
+	float: left;
+	margin-right: 30px;
+	display: block;
+	line-height: 30px;
+}
+.content .title .info p{
+	margin-bottom: 30px;
+	line-height: 20px;
+	color:#727272;
+	font-size: 12px;
+}
+.content .title .info img{
+	margin-bottom: 30px;
+}
+.key{
+	width: 1013px;
+	margin: 0 auto 60px;
+}
+.key .left{
+	float: left;
+}
+.key .left a{
+	color:#95B60F;
+}
+.key .right{
+	float: right;
+}
+.key .right a{
+	color:#828282;
+}

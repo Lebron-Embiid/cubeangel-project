@@ -1,0 +1,321 @@
+.content{
+	overflow: hidden;
+}
+.content .angels,.content .product{
+	width: 880px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.content .angels .cube,.content .our,.move .news,.case .eng,.contact .us{
+	margin: 50px auto;
+}
+.content .angels .cube span,.content .our span,.move .news span,.case .eng span,.contact .us span{
+	border:2px solid #D5D5D5;
+	text-align: center;
+	display: block;
+	width: 97px;
+	margin:0 auto;
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	color:#808080;
+}
+.content .angels .cube h2,.content .our h2,.move .news h2,.case .eng h2,.contact .us h2{
+	font-size: 24px;
+	width: 128px;
+	margin:0 auto;
+	color:#000;
+	margin-top: 5px;
+	text-align: center;
+}
+.content .angels .cube h2 a,.content .our h2 a,.move .news h2 a,.case .eng h2 a,.contact .us h2 a{
+	padding-bottom: 8px;
+	border-bottom: 4px solid #8EB100;
+}
+.content .angels ul li{
+	width: 250px;
+	float: left;
+	margin-right: 65px;
+}
+.content .angels ul li:last-child{
+	margin-right: 0;
+}
+.content .angels ul li img{
+	display: block;
+	padding:12px 6px;
+	border:2px solid #D2D2D2;
+	border-radius: 5px;
+	margin: 0 auto 25px;
+}
+.content .angels ul li h3{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	font-weight: bold;
+	color:#000;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.content .angels ul li p{
+	color:#969696;
+	font-size: 12px;
+	line-height: 24px;
+	margin-bottom: 25px;
+}
+.content .angels ul li span{
+	display: block;
+	text-align: center;
+	color:#92B40D;
+	margin-bottom: 50px;
+}
+/*产品*/
+.service{
+	width: 100%;
+	background: #F6F6F6;
+	overflow: hidden;
+}
+.service .product{
+	position: relative;
+}
+.service .product .img{
+	display: block;
+	width: 600px;
+	height: 430px;
+	margin: 0 auto 20px;
+	cursor: pointer;
+}
+.service .product .prev img,.service .product .next img{
+	display: block;
+	width: 32px;
+	height: 60px;
+	cursor: pointer;
+}
+.service .product .prev{
+	position: absolute;
+	left: 0;
+	top:430px;
+}
+.service .product .next{
+	position: absolute;
+	right: 0;
+	top:430px;
+}
+.product .title{
+	width: 450px;
+	margin:0 auto;
+}
+.product .title h3{
+	text-align: center;
+	font-size: 18px;
+	color:#000;
+	margin-bottom: 15px;
+}
+.product .title p{
+	color:#808080;
+	width: 450px;
+	margin:0 auto;
+	font-size: 12px;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+.product .span{
+	width: 161px;
+	margin:0 auto 60px;
+}
+.product .span span{
+	display: block;
+	width: 37px;
+	height: 3px;
+	background: #D1D1D1;
+	margin-right: 14px;
+	cursor: pointer;
+	float: left;
+	margin-bottom: 60px;
+}
+.product span.active{
+	background: #8EB100;
+}
+
+
+/*动态*/
+.move{
+	width: 100%;
+}
+.move .news_left{
+	width: 520px;
+	margin-right: 60px;
+}
+.move .news_left h3,.news_right ul li div h3{
+	font-size: 16px;
+	color:#080808;
+	font-weight: bold;
+	margin:20px 0 10px;
+}
+.move .news_left h3 span,.news_right ul li div h3 span{
+	float: right;
+	color:#D4D4D4;
+	font-size: 12px;
+	font-weight: normal;
+}
+.move .news_left p,.news_right ul li div p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.move .news_right{
+	width: 520px;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+.news_right ul li{
+	width: 520px;
+	height: 110px;
+	margin-bottom: 22px;
+}
+.news_right ul li:last-child{
+	margin-bottom: 0;
+}
+.news_right ul li div h3{
+	margin:0;
+	font-size: 14px;
+}
+.news_right ul li div p{
+	color:#B4B4B4;
+}
+.news_right ul li.active,.news_right ul li:hover{
+	background: #7F7F7F;
+}
+.news_right ul li.active div h3,.news_right ul li:hover div h3{
+	color:#fff;
+}
+.news_right ul li.active div p,.news_right ul li:hover div p{
+	color:#D2D2D2;
+}
+.news_right ul li img{
+	float: left;
+	margin:30px 0 0 20px;
+}
+.news_right ul li div{
+	width: 380px;
+	height: 70px;
+	float: right;
+	padding: 0 20px;
+	border-left: 3px solid #EAEAEA;
+	margin-top: 20px;
+}
+
+/*工程案例*/
+.case{
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+}
+.case .public{
+	position: absolute;
+	top: 0;
+	left: 120px;
+}
+.case .eng span{
+	width: 150px;
+	color:#D1D1CD;
+}
+.case .eng h2{
+	color:#FBFBFB;
+}
+.case ul{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+.case ul li{
+	float: left;
+	margin-right: 65px;
+	position: relative;
+}
+.case ul li:last-child{
+	margin-right: 0;
+}
+.case ul li img{
+	display: block;
+	margin:0;
+}
+.case ul li .info{
+	width: 290px;
+	height: 90px;
+	background: #fff;
+	overflow: hidden;
+}
+.case ul li .info h3{
+	width: 290px;
+	text-align: center;
+	font-size: 20px;
+	color: #313131;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.case ul li .info p{
+	width: 290px;
+	text-align: center;
+	font-size: 14px;
+	color:#898989;
+}
+.case ul li .left{
+	position: absolute;
+	left: 0;
+	top: 160px;
+	cursor: pointer;
+}
+.case ul li .right{
+	position: absolute;
+	right: 0;
+	top: 160px;
+	cursor: pointer;
+}
+
+/*联系*/
+.contact .call ul{
+	width: 730px;
+	margin:0 auto;
+}
+.contact .call ul li{
+	width: 200px;
+	float: left;
+	margin-right: 65px;
+	margin-bottom: 80px;
+}
+.contact .call ul li:last-child{
+	margin-right: 0;
+}
+.contact .call ul li img{
+	display: block;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.contact .call ul li h2{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color:#2E2E2E;
+	margin-bottom: 60px;
+}
+.contact .call ul li h2 a{
+	padding-bottom: 25px;
+	border-bottom: 4px solid #2E2E2E;
+}
+.contact .call ul li p{
+	color:#B6B6B6;
+	line-height: 20px;
+	font-size: 12px;
+}
+.contact .call ul li:nth-child(2) p,.contact .call ul li:last-child p{
+	text-align: center;
+}
+
+.contact .call .icon{
+	width: 130px;
+	margin: 0 auto 60px;
+}
+.contact .call .icon span{
+	margin-right: 15px;
+}
+.contact .call .icon span:last-child{
+	margin-right: 0;
+}

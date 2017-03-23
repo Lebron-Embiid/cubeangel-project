@@ -1,0 +1,154 @@
+
+.content span{
+	display: block;
+	font-size: 12px;
+	color:#B9B9B9;
+	margin-bottom: 30px;
+}
+.content ul{
+	width: 380px;
+	margin:0 auto;
+}
+.content ul li{
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+.content ul li:last-child{
+	margin-right: 0;
+}
+.content ul li a{
+	display: block;
+	color:#3A3A3A;
+	padding-bottom: 12px;
+}
+.content ul li.active a,.content ul li:hover a{
+	color:#98B81D;
+	border-bottom: 4px solid #8EB100;
+}
+
+/*内容*/
+.content .company{
+	margin: 10px auto 80px;
+}
+.content .company span{
+	border:2px solid #D5D5D5;
+	text-align: center;
+	display: block;
+	width: 170px;
+	margin:0 auto;
+	font-size: 12px;
+	line-height: 16px;
+	color:#808080;
+}
+.content .company h2{
+	font-size: 24px;
+	width: 150px;
+	margin:0 auto;
+	color:#000;
+	margin-top: 5px;
+	text-align: center;
+}
+.content .company h2 a{
+	padding-bottom: 8px;
+	border-bottom: 4px solid #8EB100;
+}
+/*架构图*/
+.content .tree{
+	position: relative;
+	overflow: hidden;
+}
+.content .tree img{
+	position: absolute;
+	left: 15px;
+	top: 30px;
+}
+.content .tree h2{
+	color:#515151;
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 72px;
+}
+.content .tree h3{
+	font-size: 16px;
+	font-weight: bold;
+	color:#515151;
+}
+.content .tree p{
+	color:#B5B5B5;
+	line-height: 20px;
+	font-size: 12px;
+}
+.content .tree .chief{
+	margin-bottom: 140px;
+}
+.content .tree .chief h3{
+	text-align: center;
+}
+.content .tree .chief p{
+	text-align: center;
+}
+.content .tree .sell_first{
+	width: 100px;
+	margin-left: 262px;
+	float: left;
+}
+.content .tree .market{
+	float: left;
+	width: 132px;
+	height: 50px;
+	margin-left: 123px;
+}
+.content .tree .market h3{
+	text-align: center;
+}
+.content .tree .market p{
+	text-align: center;
+}
+.content .tree .sell_second{
+	float: left;
+	margin-left: 172px;
+	margin-bottom: 145px;
+}
+.content .tree .manager{
+	float: left;
+	margin-left: 100px;
+}
+.content .tree .telemarketing{
+	float: left;
+	margin-left: 80px;
+	text-align: center;
+}
+.content .tree .store{
+	float: left;
+	margin-left: 60px;
+}
+.content .tree .merchandiser{
+	float: left;
+	margin-left: 148px;
+	text-align: center;
+}
+.content .tree .ship{
+	float: left;
+	margin-left: 230px;
+	margin-bottom: 140px;
+}
+.content .tree .list_first{
+	float: left;
+	width: 325px;
+}
+.content .tree .list_first li{
+	text-align: center;
+	width: 60px;
+	height: 80px;
+	margin-right: 35px;
+	margin-left: -15px;
+}
+.content .tree .list_second li{
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	margin-left: -55px;
+	margin-right: 70px;
+}
